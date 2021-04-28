@@ -4,4 +4,4 @@
 
 ...
 
-<EditOnGithub repo_name="ecommerce" edit_url="server/mail-settings.md"/>
+<EditOnGithub repo_name="cheatsheets" edit_url="laravel/common-commands.md"/>

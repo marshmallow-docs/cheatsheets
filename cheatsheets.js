@@ -2,31 +2,32 @@ module.exports = [
     {
         title: "Getting Started",
         collapsable: false,
-        children: [
-            'introduction',
-        ],
-    }, {
+        children: ["introduction"],
+    },
+    {
         title: "Nova",
         collapsable: false,
-        children: prefix('nova', [
-            'commands',
-        ]),
-    }, {
+        children: prefix("nova", ["commands"]),
+    },
+    {
         title: "Laravel",
         collapsable: false,
-        children: prefix('laravel', [
-            'models',
-            'common-commands',
+        children: prefix("laravel", [
+            "models",
+            "common-commands",
+            "forms",
+            "http-client",
+            "mails",
+            "sessions",
         ]),
-    }, {
+    },
+    {
         title: "Composer",
         collapsable: false,
-        children: prefix('composer', [
-            'composer',
-        ]),
-    }
-]
+        children: prefix("composer", ["composer"]),
+    },
+];
 
 function prefix(prefix, children) {
-    return children.map(child => `${prefix}/${child}`)
+    return children.map((child) => `${prefix}/${child}`);
 }

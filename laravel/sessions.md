@@ -1,16 +1,25 @@
-# Common commands
+# Sessions
 
 [[toc]]
 
-### Set
+### Set a session
+
+```php
 session([
-    $this->getSessionName() => $session_array,
+    'session_name' => 'value',
 ]);
+```
 
-### Get
-session('custom_square_meters');
+### Get a session
 
-### Check
-session()->has('custom_square_meters')
+```php
+session('session_name');
+```
 
-<EditOnGithub repo_name="ecommerce" edit_url="server/mail-settings.md"/>
+### Check a session exists
+
+```php
+session()->has('session_name')
+```
+
+<EditOnGithub repo_name="cheatsheets" edit_url="laravel/sessions.md"/>
