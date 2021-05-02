@@ -14,6 +14,7 @@ module.exports = [
         collapsable: false,
         children: prefix("laravel", [
             "models",
+            "migrations",
             "common-commands",
             "forms",
             "http-client",
