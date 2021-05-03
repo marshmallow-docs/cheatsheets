@@ -12,7 +12,7 @@ Just because we have to look up this simple variable every single time. We've do
 *
 * @var bool
 */
-public static $displayInNavigation = true;
+public static $displayInNavigation = false;
 ```
 
 <EditOnGithub repo_name="cheatsheets" edit_url="nova/resources.md"/>
