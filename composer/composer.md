@@ -10,4 +10,4 @@ Check if your project is ready for a dependency update. The example below will l
 composer prohibits php:8
 ```
 
-<EditOnGithub repo_name="ecommerce" edit_url="git/submodules.md"/>
+<EditOnGithub repo_name="cheatsheets" edit_url="composer/composer.md"/>

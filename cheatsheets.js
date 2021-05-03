@@ -7,7 +7,7 @@ module.exports = [
     {
         title: "Nova",
         collapsable: false,
-        children: prefix("nova", ["commands"]),
+        children: prefix("nova", ["commands", "errors", "resources"]),
     },
     {
         title: "Laravel",
