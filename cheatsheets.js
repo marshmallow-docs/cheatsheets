@@ -18,6 +18,7 @@ module.exports = [
             "common-commands",
             "forms",
             "http-client",
+            "routes",
             "mails",
             "sessions",
         ]),
